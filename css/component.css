@@ -881,6 +881,7 @@ input[type=text]::-ms-clear {
 	}
 
 	.fs-continue::after {
+		display: none;
 		content: '';
 	}
 
