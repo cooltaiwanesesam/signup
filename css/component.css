@@ -268,7 +268,7 @@ button.fs-continue,
 	color: #fffed8;
 	text-overflow: ellipsis;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1em;
 	border-radius: 0;
 }
 
@@ -297,7 +297,7 @@ button.fs-continue,
 }
 
 .fs-form-overview .fs-fields input {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .fs-fields .fs-radio-custom input[type="radio"] {
@@ -397,7 +397,7 @@ button.fs-continue,
 	background-color: transparent;
 	color: #fffed8;
 	font-weight: 700;
-	font-size: 0.85em;
+	font-size: 1em;
 	resize: none;
 }
 
@@ -535,7 +535,7 @@ button.fs-continue,
 	position: absolute;
 	top: 0;
 	width: 0%;
-	height: 0.5em;
+	height: 0.1em;
 	background: #fffed8;
 	-webkit-transition: width 0.3s ease-in-out;
 	transition: width 0.3s ease-in-out;
@@ -669,6 +669,11 @@ button.fs-continue {
 	bottom: 0;
 	margin: 0 40px 60px 0;
 	font-size: 1.25em;
+}
+
+button.fs-continue::before {
+			content: 'Continue';
+		text-align: center;
 }
 
 button.fs-submit:hover,
